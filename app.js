@@ -33,7 +33,7 @@ const game = (userOption) => {
   }
 
   if (ronda === 5 ) {
-    alert(`RESULTADO -- pc: ${puntajePC} vos: ${puntajePJ}`)
+    alert("RESULTADO -- pc: " + puntajePC +  "vos: " + puntajePJ)
     ronda = 0
     puntajePC = 0
     puntajePJ = 0
